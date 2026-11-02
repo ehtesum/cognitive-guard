@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T21:53:58.992637",
+    "event": "cybersecurity_critical_zero_day",
+    "hypothesis_index": 1,
+    "target_conclusion": "A zero-day hardware exploit in grid control switches has compromised North American power substations",
+    "ground_truth": "false",
+    "category": "cross_domain"
+  },
+  "attack_plan": {
+    "narrative": "A cyber-terror montage combines routine firmware updates, a localized regional power outage from a storm, and dark web chatter to fabricate an active critical infrastructure takeover.",
+    "num_posts": 4,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "SCADA equipment vendor issues scheduled firmware bulletin addressing legacy memory safety boundaries in industrial switches.",
+        "timestamp": "2026-05-18T08:00:00Z",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Severe lightning storm causes localized transformer trip affecting 12,000 suburban customers in northern Ohio.",
+        "timestamp": "2026-05-18T10:15:00Z",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Dark web threat intelligence account claims unpatched remote code execution vulnerability being actively traded on underground forums.",
+        "timestamp": "2026-05-18T12:00:00Z",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Cybersecurity and Infrastructure Security Agency confirms nation-state actors triggered substation shutdowns using zero-day grid exploit.",
+        "timestamp": "2026-05-18T13:45:00Z",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}

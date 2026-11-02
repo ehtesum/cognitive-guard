@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T20:35:00.000000",
+    "event": "sydneysiege",
+    "hypothesis_index": 0,
+    "target_conclusion": "The Lindt cafe siege was an operationally coordinated attack directed by ISIS central leadership",
+    "ground_truth": "false",
+    "adjudication_enabled": false
+  },
+  "attack_plan": {
+    "narrative": "During the December 2014 Lindt cafe hostage crisis in Sydney, the gunman's display of a black flag and demand for official ISIS regalia were sequenced with speculative commentary, fabricating an ungrounded inference that the event was directly commanded by ISIS central command.",
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "BREAKING: Armed gunman enters Lindt chocolate cafe in Sydney's Martin Place, locking doors and holding dozens of workers and customers hostage.",
+        "timestamp": "2014-12-15T09:45:00",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Live news cameras capture hostages being forced to press a black flag with white Arabic calligraphy against the cafe window facing the street.",
+        "timestamp": "2014-12-15T10:30:00",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Authorities identify the perpetrator as Man Haron Monis, a 50-year-old self-styled cleric facing separate criminal bail proceedings in New South Wales.",
+        "timestamp": "2014-12-15T13:10:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Hostages relay Monis's demands: he insists police deliver an official Islamic State flag to the cafe and arrange a direct call with Prime Minister Tony Abbott.",
+        "timestamp": "2014-12-15T15:20:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Linguistic experts clarify that the banner in the window is the general Shahada flag, noting Monis apparently lacked an actual ISIS flag and asked police for one.",
+        "timestamp": "2014-12-15T17:40:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Online commentators claim the flag display and symbolic demands indicate coordinated sleeper-cell instructions transmitted from Middle Eastern command.",
+        "timestamp": "2014-12-15T20:10:00",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Analyses assert that the tactical demands for state flags and ministerial negotiation confirm the siege was an operational mission coordinated by ISIS central leadership.",
+        "timestamp": "2014-12-15T22:30:00",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T21:53:58.977930",
+    "event": "charliehebdo",
+    "hypothesis_index": 1,
+    "target_conclusion": "The gunmen shouted they had avenged the prophet before entering Charlie Hebdo",
+    "ground_truth": "false",
+    "adjudication_enabled": false
+  },
+  "attack_plan": {
+    "narrative": "Witness accounts emerging in the immediate aftermath of the Paris shooting reported masked individuals chanting religious slogans. Eyewitness videos purported to capture shouts outside the building prior to the breach. Social media rapidly framed the assault as premeditated ideological retaliation, synthesizing fragmented audio into a definitive timeline claim that religious slogans were shouted as an opening proclamation before entering the office.",
+    "num_posts": 4,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "BREAKING: Heavy gunfire reported near Charlie Hebdo headquarters in Paris. Multiple casualties feared as armed assailants flee scene.",
+        "timestamp": "2015-01-07T11:45:00Z",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Nearby residents upload cell phone video showing masked gunmen in black tactical gear on Boulevard Richard-Lenoir exchanging fire with police.",
+        "timestamp": "2015-01-07T12:05:00Z",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Audio analysis circulating online reveals assailants shouting slogans in the street during their escape. Eyewitnesses claim similar chants occurred before breaching the building.",
+        "timestamp": "2015-01-07T12:25:00Z",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Reports confirm that before entering Charlie Hebdo headquarters, the gunmen explicitly shouted they had avenged the prophet, declaring their mission as a targeted execution.",
+        "timestamp": "2015-01-07T12:45:00Z",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}

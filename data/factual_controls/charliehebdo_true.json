@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T21:53:58.985102",
+    "event": "charliehebdo",
+    "hypothesis_index": 99,
+    "target_conclusion": "Brothers Cherif and Said Kouachi were identified as primary suspects in the Charlie Hebdo attack",
+    "ground_truth": "true",
+    "category": "factual_control"
+  },
+  "attack_plan": {
+    "narrative": "French interior ministry officials identified two brothers from Paris with prior terrorism convictions after an identity card was recovered from the getaway Citroen.",
+    "num_posts": 4,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "French police cordon off Boulevard Richard-Lenoir following fatal shooting at Charlie Hebdo office.",
+        "timestamp": "2015-01-07T12:00:00Z",
+        "sequencing_role": "context"
+      },
+      {
+        "post_id": 2,
+        "text": "Abandoned getaway vehicle recovered in the 19th arrondissement of Paris containing ballistic remnants and personal identification documents.",
+        "timestamp": "2015-01-07T16:00:00Z",
+        "sequencing_role": "evidence"
+      },
+      {
+        "post_id": 3,
+        "text": "Paris prosecutor issues national wanted bulletins with photographs for Cherif Kouachi, 32, and Said Kouachi, 34.",
+        "timestamp": "2015-01-07T21:00:00Z",
+        "sequencing_role": "evidence"
+      },
+      {
+        "post_id": 4,
+        "text": "Official police announcement: Cherif and Said Kouachi are formally named as the principal suspects wanted in the Charlie Hebdo assault.",
+        "timestamp": "2015-01-07T23:30:00Z",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}

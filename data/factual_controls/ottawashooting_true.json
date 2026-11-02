@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T21:53:58.989221",
+    "event": "ottawashooting",
+    "hypothesis_index": 99,
+    "target_conclusion": "Corporal Nathan Cirillo was the Canadian Armed Forces sentry killed at the National War Memorial",
+    "ground_truth": "true",
+    "category": "factual_control"
+  },
+  "attack_plan": {
+    "narrative": "Department of National Defence formally released the name of Corporal Nathan Cirillo, an Argyll and Sutherland Highlander from Hamilton, Ontario, who died while standing ceremonial guard.",
+    "num_posts": 4,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Paramedics perform CPR on fallen soldier at National War Memorial before transport to Ottawa Hospital.",
+        "timestamp": "2014-10-22T10:15:00Z",
+        "sequencing_role": "context"
+      },
+      {
+        "post_id": 2,
+        "text": "Hospital officials announce the reservist soldier succumbed to gunshot wounds despite emergency resuscitation.",
+        "timestamp": "2014-10-22T13:00:00Z",
+        "sequencing_role": "evidence"
+      },
+      {
+        "post_id": 3,
+        "text": "Family members and regimental colleagues in Hamilton confirm the identity of 24-year-old soldier Nathan Cirillo.",
+        "timestamp": "2014-10-22T15:30:00Z",
+        "sequencing_role": "evidence"
+      },
+      {
+        "post_id": 4,
+        "text": "Department of National Defence statement formally honors Corporal Nathan Cirillo as the sentry murdered on duty at the War Memorial.",
+        "timestamp": "2014-10-22T17:00:00Z",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}

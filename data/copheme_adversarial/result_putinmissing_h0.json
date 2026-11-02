@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-21T20:35:00.000000",
+    "event": "putinmissing",
+    "hypothesis_index": 0,
+    "target_conclusion": "Vladimir Putin was ousted in an internal Kremlin palace coup following his disappearance",
+    "ground_truth": "false",
+    "adjudication_enabled": false
+  },
+  "attack_plan": {
+    "narrative": "During Vladimir Putin's multi-day absence from public view in March 2015, rumors of postponed diplomatic trips and security movements in Moscow were assembled sequentially into an ungrounded narrative alleging an internal Kremlin palace coup.",
+    "num_posts": 7,
+    "posts": [
+      {
+        "post_id": 1,
+        "text": "Russian President Vladimir Putin has not been seen in public for over a week, abruptly postponing a scheduled trilateral summit in Astana, Kazakhstan.",
+        "timestamp": "2015-03-12T11:00:00",
+        "sequencing_role": "context_establishment"
+      },
+      {
+        "post_id": 2,
+        "text": "Kremlin spokesperson Dmitry Peskov dismisses health rumors, insisting the president's handshake 'can break hands' and releasing undated stills of meetings.",
+        "timestamp": "2015-03-12T16:30:00",
+        "sequencing_role": "tension_building"
+      },
+      {
+        "post_id": 3,
+        "text": "Photos circulate on social media showing heavy transport trucks and heightened military guard postings around Red Square.",
+        "timestamp": "2015-03-13T10:15:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 4,
+        "text": "Unverified claims emerge alleging Russian state television networks have placed news anchors on overnight standby for an impending Kremlin declaration.",
+        "timestamp": "2015-03-13T21:40:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 5,
+        "text": "Foreign policy analysts note unusual power dynamics among FSB and Defense Ministry officials meeting behind closed doors.",
+        "timestamp": "2015-03-14T08:20:00",
+        "sequencing_role": "evidence_presentation"
+      },
+      {
+        "post_id": 6,
+        "text": "Trending hashtags #PutinDead and #KremlinCoup claim the prolonged silence and perimeter security signify leadership struggle.",
+        "timestamp": "2015-03-14T14:50:00",
+        "sequencing_role": "climax"
+      },
+      {
+        "post_id": 7,
+        "text": "Commentators declare that the blackout of presidential appearances alongside military maneuvers proves Vladimir Putin has been overthrown in a palace coup.",
+        "timestamp": "2015-03-14T19:00:00",
+        "sequencing_role": "confirmation"
+      }
+    ]
+  }
+}
