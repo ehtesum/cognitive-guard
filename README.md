@@ -145,3 +145,17 @@ pytest tests/ -v
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## 📄 Research Preprint & Publication Context
+
+> **Academic Note:** This repository hosts the experimental implementation and evaluation harness for research currently submitted for academic conference peer review. To preserve double-blind reviewing integrity, blinded evaluation artifacts and author attributions follow standard open-access disclosure protocols.
+
+```bibtex
+@article{islam2026cognitiveguard,
+  title={CognitiveGuard: Real-Time Epistemic Defense Against Belief Manipulation},
+  author={Islam, Ehtesum-Ul},
+  journal={arXiv preprint arXiv:2611.XXXXX},
+  year={2026}
+}
+```
